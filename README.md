@@ -9,7 +9,7 @@ to rise greatly over the next decade. Hence to prevent it, we must investigate i
 
 The primary dataset is "lung cancer survey.csv". It is a survey dataset of individuals with or without lung cancer and their respective attributes. The data is originally retrieved from [Kaggle](https://www.kaggle.com/datasets/wajahat1064/lung-cancer-survey-data) which was in turn retrieved from an online website on lung cancer prediction systems. Thereafter, the data was passed through a series of training models and a synthetic dataset of 10,000 observations was eventually generated.  
 
-The schema of the dataset used is as follows:
+The description of the dataset used is as follows:
 
 | Column Name           | Values            | Question                                      |
 |-----------------------|------------------|----------------------------------------------|
