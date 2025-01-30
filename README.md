@@ -25,12 +25,11 @@ The schema of the dataset used is as follows:
 | Country | Country where the customer is based in
 
 ## Objectives
-There are two objectives to this project:
+There are three objectives to this project:
 
-1) Understand the contributing factors to customer loyalty to gain actionable insights for nurturing loyal customer relationships for sustained revenue growth.
-   
-2) Understand customer behaviour through effective
-segmentation to recommend tailored customer targeting strategies.
+1) Produce isnisghtful and clear data visualisations to raise public awareness of lung cancer. This visualisations would be incorporated in a written report.
+2) Create a predictive model using diffferent machine learning approaches to determine the likelihood of developing lung cancer.
+3) Present your findings in a coherent and clear presentation.
 
 ## Methodology
 
