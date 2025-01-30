@@ -4,12 +4,10 @@
 This project explores the use of Python libraries for data visualisation, machine learning, and statistical analysis in creating predictive models.
 
 ## Problem Statement
-Lung cancer is as serious national comcern in Singapore and it is now the third most
-common cancer across both genders. lung cancer as the number o is expected
-to rise greatly over the next decade. Hence, we must investigate its causes by
-analysing different factors such as age, lifestyle choices and symptoms.
+Lung cancer is the third most common cancer across both genders in Singapore. Moreover, lung cancer incidence is expected
+to rise greatly over the next decade. Hence to prevent it, we must investigate its causes by analysing factors such as age, lifestyle choices and symptoms.
 
-The primary dataset used are from a given survey data of indiviauas with or without lung cancer.
+The primary dataset used is from a survey data of individuals with or without lung cancer. For data privacy purposes, this is a mock dataset.
 
 The schema of the dataset used is as follows:
 
@@ -28,16 +26,16 @@ The schema of the dataset used is as follows:
 There are three objectives to this project:
 
 1) Produce isnisghtful and clear data visualisations to raise public awareness of lung cancer. This visualisations would be incorporated in a written report.
-2) Create a predictive model using diffferent machine learning approaches to determine the likelihood of developing lung cancer.
+2) Create a predictive model using different machine learning approaches to determine the likelihood of developing lung cancer.
 3) Present your findings in a coherent and clear presentation.
 
 ## Methodology
 
 For this project, we would seperate into three parts as follows:
 
-### Part 1: Data Visualtion of Public Awareness
+### Part 1: Data Visualisation of Public Awareness
 
-We would use both the survey data and data extracted from the National Cancer Survey to produce data visualisations that help meet Objective 1. This would mean using packages such as Pandas, Matplotlib, and Seaborn.These visualstions would be subsequently incorporated in a written report for public awareness. The report my use secodnary information for agruments made.
+We would use both the survey data and data extracted from the National Cancer Survey to produce data visualisations that help meet Objective 1. This would mean using packages such as Pandas, Matplotlib, and Seaborn.These visualisations would be subsequently incorporated in a written report for public awareness. The report my use secodnary information for agruments made.
 
 ### Part 2: Predictive Machine Learning
 
