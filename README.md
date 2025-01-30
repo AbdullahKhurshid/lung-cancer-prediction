@@ -44,7 +44,7 @@ For this project, we would separate into three parts as follows:
 
 ### Part 1: Data Visualisation of Public Awareness
 
-We would use both the survey data and data extracted from the National Cancer Survey to produce data visualisations that help meet Objective 1. This would mean using packages such as Pandas, Matplotlib, and Seaborn.
+We would use both the survey data and data extracted from the National Cancer Registry 2022 and the World Health Orgnisation data to produce data visualisations that help meet Objective 1. This would mean using packages such as Pandas, Matplotlib, and Seaborn.
 
 These visualisations would be subsequently incorporated into a written report for public awareness. The report may use secondary information for arguments made.
 
