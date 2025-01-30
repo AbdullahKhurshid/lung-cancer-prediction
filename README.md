@@ -50,7 +50,7 @@ These visualisations would be subsequently incorporated into a written report fo
 
 ### Part 2: Predictive Machine Learning
 
-Using the survey data, we would create different machine-learning models using supervised learning methods. Model selection will based on their F1-Score, as the target variable is binary, on the same training-validation slot.
+Using the survey data, we would create different machine-learning models using supervised learning methods. Model selection will based on their F1-Score, as the target variable is binary, on the same training-validation split.
 
 The machine learning models used are Logistic Regression, Decision Trees, K-Nearest Neighbour, and Dense Neural Networks. Where applicable, we would conduct hyperparameter tuning while training the model and conduct statistical assumptions for the best model. Through this process, we would use libraries such as Sci-kit Learn, Keras and Pandas.
 
