@@ -7,43 +7,57 @@ This project explores the use of Python libraries for data visualisation, machin
 Lung cancer is the third most common cancer across both genders in Singapore. Moreover, lung cancer incidence is expected
 to rise greatly over the next decade. Hence to prevent it, we must investigate its causes by analysing factors such as age, lifestyle choices and symptoms.
 
-The primary dataset used is from a survey data of individuals with or without lung cancer. For data privacy purposes, this is a mock dataset.
+The primary dataset is "lung cancer survey.csv". It is a survey dataset of individuals with or without lung cancer and their respective attributes. The data is originally retrieved from [Kaggle](https://www.kaggle.com/datasets/wajahat1064/lung-cancer-survey-data) which was in turn retrieved from an online website on lung cancer prediction systems. Thereafter, JR passed the data through a series of training models and a synthetic dataset of 10,000 observations was eventually generated.  
 
 The schema of the dataset used is as follows:
 
-| Column Name | Description |
-| --- | --- |
-| CustomerNo | An identification number for each unique customer |
-| TransactionNo | An identification number for each unique transaction |
-| Date | The date on which the transaction was made |
-| ProductNo | An (alpha)numeric code for each unique product |
-| ProductName | Name of Product |
-| Price | Unit Price of the specific product |
-| Quantity | Quantity purchased for a single product within the transaction
-| Country | Country where the customer is based in
+| Column Name           | Values            | Question                                      |
+|-----------------------|------------------|----------------------------------------------|
+| **GENDER**           | Male=1, Female=0 | What is your gender?                         |
+| **AGE**              | Age of patient   | What is your age?                            |
+| **SMOKING**          | YES=1, NO=0      | Do you smoke?                                |
+| **YELLOW_FINGERS**   | YES=1, NO=0      | Do you have yellow fingers?                  |
+| **ANXIETY**         | YES=1, NO=0      | Do you have anxiety issues?                 |
+| **PEER_PRESSURE**    | YES=1, NO=0      | Have you been pressured by your peers to smoke? |
+| **CHRONIC DISEASE**  | YES=1, NO=0      | Do you suffer from any chronic disease?     |
+| **FATIGUE**         | YES=1, NO=0      | Do you feel tired easily?                   |
+| **ALLERGY**         | YES=1, NO=0      | Do you have any allergy?                    |
+| **WHEEZING**        | YES=1, NO=0      | Do you suffer from wheezing problems?       |
+| **ALCOHOL CONSUMING**| YES=1, NO=0      | Do you consume alcohol?                     |
+| **COUGHING**        | YES=1, NO=0      | Do you suffer from coughing problems?       |
+| **SHORTNESS OF BREATH** | YES=1, NO=0  | Do you easily get short of breath?         |
+| **SWALLOWING DIFFICULTY** | YES=1, NO=0 | Do you face difficulty swallowing?         |
+| **CHEST PAIN**       | YES=1, NO=0      | Do you feel any chest pain?                 |
+| **LUNG_CANCER**      | YES=1, NO=0      | Do you have lung cancer?                    |
+
 
 ## Objectives
 There are three objectives to this project:
 
-1) Produce isnisghtful and clear data visualisations to raise public awareness of lung cancer. This visualisations would be incorporated in a written report.
-2) Create a predictive model using different machine learning approaches to determine the likelihood of developing lung cancer.
+1) Produce insightful and clear data visualisations to raise public awareness of lung cancer. These visualisations would be incorporated into a written report.
+2) Create a predictive model using different machine-learning approaches to determine the likelihood of developing lung cancer.
 3) Present your findings in a coherent and clear presentation.
 
 ## Methodology
 
-For this project, we would seperate into three parts as follows:
+For this project, we would separate into three parts as follows:
 
 ### Part 1: Data Visualisation of Public Awareness
 
-We would use both the survey data and data extracted from the National Cancer Survey to produce data visualisations that help meet Objective 1. This would mean using packages such as Pandas, Matplotlib, and Seaborn.These visualisations would be subsequently incorporated in a written report for public awareness. The report my use secodnary information for agruments made.
+We would use both the survey data and data extracted from the National Cancer Survey to produce data visualisations that help meet Objective 1. This would mean using packages such as Pandas, Matplotlib, and Seaborn.
+
+These visualisations would be subsequently incorporated into a written report for public awareness. The report may use secondary information for arguments made.
 
 ### Part 2: Predictive Machine Learning
 
-Using the survey data, we would create different machine learning models using supervised learning methods. We would do model selection based on their F1-Score on the save training-valisation solot as the target variable is binary. We would then use the best model and train it on the enture data set. The machine learning models to be used are Logistic Regression, Decision Trees, K-Nearest Neighbour, and Dense Neural Networks. Where applicable, we would condict hyperparemter tuning while trainng the model and conduct statistical assumptions for the best model.
-Through this process, we would use libraries such as Sci-kit Learn,Keras and Pandas.
+Using the survey data, we would create different machine-learning models using supervised learning methods. Model selection will based on their F1-Score, as the target variable is binary, on the same training-validation slot.
+
+The machine learning models used are Logistic Regression, Decision Trees, K-Nearest Neighbour, and Dense Neural Networks. Where applicable, we would conduct hyperparameter tuning while training the model and conduct statistical assumptions for the best model. Through this process, we would use libraries such as Sci-kit Learn, Keras and Pandas.
+
+The best model will be fitted into the entire "lung cancer survey.csv" and this model will then be evaluated on a new dataset called "lung cancer survey_test.csv". This is to evaluate the model on a dataset that it has never seen before. Subsequently, we would get the F1-Score of this evaluation.
 
 ### Part 3: Results Presentation
 
-We would consolidate the findings or Part 1 and Part 2 into a coherent presentation so as to communicate our results effectively for stakeho.
+We would consolidate the findings of Part 1 and Part 2 into a coherent presentation to communicate our results effectively to stakeholders.
 
 
