@@ -4,9 +4,14 @@
 This project explores the use of Python libraries for data visualisation, machine learning, and statistical analysis in creating predictive models.
 
 ## Problem Statement
-In the B2C e-commerce sector, businesses face the challenge of optimizing their operations and enhancing customer understanding to drive revenue growth.
+Lung cancer is as serious national comcern in Singapore and it is now the third most
+common cancer across both genders. lung cancer as the number o is expected
+to rise greatly over the next decade. Hence, we must investigate its causes by
+analysing different factors such as age, lifestyle choices and symptoms.
 
-The dataset is from Kaggle, [transactions.csv](https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business), contains a one-year record of e-commerce sales transactions comprising 500,000 rows and 8 columns.
+The primary dataset used are from a given survey data of indiviauas with or without lung cancer.
+
+The schema of the dataset used is as follows:
 
 | Column Name | Description |
 | --- | --- |
